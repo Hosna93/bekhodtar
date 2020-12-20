@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url("IOTImage2.jpg.pagespeed.ce.lxlWZMNE4h.jpg");
+    /*-webkit-background-size:cover;*/
+    background-size:cover;
+    background-position: center center;
+    height: 100vh;
+}
+.navbar{
+    width: 860px;
+    margin: 0 auto;
+}
+.navbar ul{
+    list-style: none;
+    margin-top: 2%;
+}
+.navbar ul li{
+    background-color: rgba(28, 148, 142, .5);
+    width: 170px;
+    border: 1px solid #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar ul li:hover{
+    background: crimson;
+}
+
+.navbar ul ul {
+    display: none;
+}
+.navbar ul li :hover > ul{
+    display: block;
+}
+.navbar ul ul ul{
+    margin-left: 170px;
+    top: 0;
+    position: absolute;
+}
